@@ -1,14 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <GMaps />
   <WeatherWidget />
 </template>
 
 <script>
 import WeatherWidget from "@/components/WeatherWidget";
+import GMaps from "@/components/GMaps";
 export default {
   name: "App",
   components: {
-    WeatherWidget
+    WeatherWidget,
+    GMaps
   }
 };
 </script>
